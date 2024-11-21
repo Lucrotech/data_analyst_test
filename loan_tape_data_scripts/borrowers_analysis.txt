@@ -1,0 +1,44 @@
+
+--- Data Quality Analysis ---
+File: borrowers.csv
+
+1. Dataset Overview:
+Number of rows: 4282097
+Number of columns: 6
+
+2. Missing Values:
+country                    82
+geo_classification    1182014
+date_of_birth          168794
+dtype: int64
+
+3. Duplicate Rows:
+Number of duplicate rows: 390803
+
+4. Data Types and Inconsistencies:
+as_of_datetime        object
+borrower_id           object
+gender                object
+country               object
+geo_classification    object
+date_of_birth         object
+dtype: object
+
+5. Descriptive Statistics (Numerical Columns):
+                      count  unique                  top     freq
+as_of_datetime      4282097      10  2024-10-01 00:00:00   575688
+borrower_id         4282097  450707     S0VfVVBfMjQ2Ng==       50
+gender              4282097       2               Female  3036053
+country             4282015       2                Kenya  4031747
+geo_classification  3100083       2                Rural  2306740
+date_of_birth       4113303   18811           1970-01-01   335567
+
+6. Unique Values in Categorical Columns:
+as_of_datetime: 10 unique values
+borrower_id: 450707 unique values
+gender: 2 unique values
+country: 2 unique values
+geo_classification: 2 unique values
+date_of_birth: 18811 unique values
+
+--- End of Analysis ---

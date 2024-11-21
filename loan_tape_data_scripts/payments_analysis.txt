@@ -1,0 +1,41 @@
+
+--- Data Quality Analysis ---
+File: payments.csv
+
+1. Dataset Overview:
+Number of rows: 5681806
+Number of columns: 6
+
+2. Missing Values:
+payment_id      150
+payment_date     76
+loan_id           2
+currency          1
+amount           76
+type             76
+dtype: int64
+
+3. Duplicate Rows:
+Number of duplicate rows: 0
+
+4. Data Types and Inconsistencies:
+payment_id       object
+payment_date     object
+loan_id          object
+currency         object
+amount          float64
+type             object
+dtype: object
+
+5. Descriptive Statistics (Numerical Columns):
+            count         mean           std       min    25%    50%     75%        max
+amount  5681730.0  9199.224274  67017.775394 -132600.0  230.0  500.0  3050.0  5000000.0
+
+6. Unique Values in Categorical Columns:
+payment_id: 5672533 unique values
+payment_date: 305 unique values
+loan_id: 1266694 unique values
+currency: 4 unique values
+type: 2 unique values
+
+--- End of Analysis ---

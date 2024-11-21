@@ -1,0 +1,63 @@
+
+--- Data Quality Analysis ---
+File: loans.csv
+
+1. Dataset Overview:
+Number of rows: 2757982
+Number of columns: 17
+
+2. Missing Values:
+borrower_id           12822
+closing_date            182
+write_off_date       442084
+write_off_amount     442084
+default_date        2757772
+default_amount      2757772
+dtype: int64
+
+3. Duplicate Rows:
+Number of duplicate rows: 25
+
+4. Data Types and Inconsistencies:
+as_of_datetime        object
+loan_id               object
+borrower_id           object
+issue_date            object
+maturity_date         object
+closing_date          object
+currency              object
+principal_amount     float64
+interest_rate        float64
+write_off_date        object
+write_off_amount     float64
+default_date          object
+default_amount       float64
+product_name          object
+penalties            float64
+fees                 float64
+total_outstanding    float64
+dtype: object
+
+5. Descriptive Statistics (Numerical Columns):
+                       count          mean            std        min      25%       50%       75%        max
+principal_amount   2757982.0  40080.396132  118221.241086      10.00  7500.00  12000.00  20000.00  4000000.0
+interest_rate      2757982.0      0.254941       0.073073       0.00     0.27      0.27      0.30        1.6
+write_off_amount   2315898.0  37677.081156  110643.877166       0.01  6500.00  12700.00  23700.00  3210000.0
+default_amount         210.0    540.167143     476.725884       6.84   100.00    401.25    668.75     1605.0
+penalties          2757982.0   1430.316109    2664.326591   -4455.00     0.00    318.00   2100.00   150000.0
+fees               2757982.0    285.572748    2010.016039       0.00     0.00      0.00      0.00    18000.0
+total_outstanding  2757982.0  29847.882667   98431.906333 -710000.00  1800.00   9050.00  19050.00  3210000.0
+
+6. Unique Values in Categorical Columns:
+as_of_datetime: 10 unique values
+loan_id: 675767 unique values
+borrower_id: 295896 unique values
+issue_date: 2980 unique values
+maturity_date: 2669 unique values
+closing_date: 578 unique values
+currency: 2 unique values
+write_off_date: 118 unique values
+default_date: 10 unique values
+product_name: 3 unique values
+
+--- End of Analysis ---

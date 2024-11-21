@@ -1,0 +1,7 @@
+# Ignore specific CSV files
+loans.csv
+payments.csv
+borrowers.csv
+loans_sample.csv
+payments_sample.csv
+borrowers_sample.csv
