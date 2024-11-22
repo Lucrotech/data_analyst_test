@@ -1,5 +1,7 @@
-# Ignore specific CSV files
+# Ignore specific CSV files 
 loans.csv
 payments.csv
 borrowers.csv
+
+# Ignore Python script for principle amount vs write-off analysis
 principle_amount_vs_write-off.py
