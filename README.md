@@ -1,4 +1,4 @@
-# DATA_ANALYST_TAKEHOME_TEST
+# DATA ANALYST TAKEHOME TEST
 
 This repository contains a structured set of scripts, data, and documentation designed to facilitate data analysis tasks related to loan processing and evaluation. Below is a description of the directory structure and contents.
 
