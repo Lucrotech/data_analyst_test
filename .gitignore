@@ -2,6 +2,8 @@
 loans.csv
 payments.csv
 borrowers.csv
+cleaned_loans.csv
+cleaned_payments.csv
+cleaned_borrowers.csv
 
 # Ignore Python script for principle amount vs write-off analysis
-principle_amount_vs_write-off.py
