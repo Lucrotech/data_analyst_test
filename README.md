@@ -44,7 +44,7 @@ This directory contains the original, unprocessed data files locally and in the 
 - **`payments.csv`**: The original payments dataset.
 
 ### 6. `task_and_data_dictionary`
-This folder includes documentation and resources related to the task and data.
+This folder includes the documentation provided as assignment and resources related to explaining the data provided.
 
 - **`Data analyst take home test.docx`**: A document detailing the task and requirements.
 - **`Data Dictionary.xlsx`**: An Excel file containing descriptions and definitions of the dataset fields.
