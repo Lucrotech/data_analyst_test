@@ -30,14 +30,14 @@ This directory contains presentation materials summarizing the findings and anal
 - **`20241124_Swift_Loan_Data_Review_rev1.pdf`**: A PDF presentation providing an overview of the data analysis findings and recommendations.
 
 ### 4. `processed_data`
-This folder holds the cleaned and processed datasets, ready for analysis.
+This folder holds the cleaned and processed datasets, ready for analysis locally and in the related AWS S3 bucket. Due to the size they were excluded from the GitHub repo (see gitignore for exclusions).
 
 - **`cleaned_borrowers.csv`**: A CSV file containing cleaned borrower data.
 - **`cleaned_loans.csv`**: A CSV file with cleaned loan information.
 - **`cleaned_payments.csv`**: A CSV file of processed payment records.
 
 ### 5. `raw_data`
-This directory contains the original, unprocessed data files.
+This directory contains the original, unprocessed data files locally and in the related AWS S3 bucket. Due to the size they were excluded from the GitHub repo (see gitignore for exclusions).
 
 - **`borrowers.csv`**: The raw borrower dataset.
 - **`loans.csv`**: The initial loan data file.
