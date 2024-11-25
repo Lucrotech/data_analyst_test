@@ -43,7 +43,15 @@ This directory contains the original, unprocessed data files locally and in the 
 - **`loans.csv`**: The initial loan data file.
 - **`payments.csv`**: The original payments dataset.
 
-### 6. `task_and_data_dictionary`
+### 6. `sql_queries_for_validation`
+This folder contains SQL queries used for performing various calculations related to loan data analysis. The queries are designed to validate the findings from the Python 'data_calculation_scripts'.
+
+- **`collection_rate.sql`**: Computes the collection rate for loans.
+- **`collection_rate_gender.sql`**: Calculates collection rates segmented by gender.
+- **`days_in_arrears.sql`**: Analyzes the average days loans are in arrears.
+- **`write_off_rate.sql`**: Determines the write-off rate for the loan portfolio.
+
+### 7. `task_and_data_dictionary`
 This folder includes the documentation provided as assignment and resources related to explaining the data provided.
 
 - **`Data analyst take home test.docx`**: A document detailing the task and requirements.
